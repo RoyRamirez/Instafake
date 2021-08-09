@@ -3,12 +3,21 @@ const Usuario = require('../modelos/UsuarioModel');
 
 // Mostrar
 module.exports.mostrar = (req, res) => {
-  mongoose.model('Usuario').find({}, (error, usuarios) => {
+  const correo = req.query.correo;
+  const pass = req.query.password;
+  let us = {};
+  if((correo !== "" && correo !== undefined) && (pass !== "" && pass !== undefined)){
+    us = {
+      correo: correo,
+    }
+  }
+  else {
+    us = {};
+  }
+  mongoose.model('Usuario').find(us, (error, usuarios) => {
     if(error) {
-      // return res.status(500).json
       console.log(error);
     }
-    console.log(usuarios);
+    return res.json(usuarios);
   });
-  return res.json();
 }
