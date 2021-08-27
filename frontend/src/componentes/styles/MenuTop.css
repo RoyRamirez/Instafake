@@ -21,3 +21,9 @@
   text-decoration: none;
   color: black;
 }
+.titulo {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 45px;
+  font-family: 'Dancing Script', cursive;
+}

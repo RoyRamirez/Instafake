@@ -7,7 +7,8 @@ import './styles/MenuTop.css';
 export const MenuTop = () => {
   return (
     <div className="menuTop">
-      <img src={logo} alt="" className="logo" />
+      {/* <img src={logo} alt="" className="logo" /> */}
+      <h1 className="titulo">Instafake</h1>
       <div className="leftMenu">
       <a href="/" className="icon-top"><CgAddR /></a>
       <a href="/" className="icon-top"><FcLike /></a>
