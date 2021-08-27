@@ -1,0 +1,16 @@
+.menuBottom {
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid rgb(192, 192, 192);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  bottom: 0;
+  position: fixed;
+}
+.icon-bottom {
+  text-decoration: none;
+  color: black;
+}
