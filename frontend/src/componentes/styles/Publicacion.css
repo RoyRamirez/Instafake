@@ -1,0 +1,46 @@
+.publicacion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.infoTop {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  font-size: 18px;
+}
+.usuar {
+  width: 35px;
+  margin-left: 15px;
+  margin-right: 8px;
+}
+.reacciones {
+  font-size: 22px;
+  padding: 5px 0;
+}
+.reaccion {
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+}
+.likes {
+  margin-left: 15px;
+  font-size: 18px;
+}
+.descripcion {
+  font-size: 18px;
+  margin: 5px 0;
+  margin-left: 15px;
+}
+.comentarios {
+  font-size: 18px;
+  margin: 5px 0;
+  color: rgb(128, 128, 128);
+  margin-left: 15px;
+}
+.tiempo {
+  font-size: 16px;
+  margin: 5px 0;
+  color: rgb(128, 128, 128);
+  margin-left: 15px;
+}

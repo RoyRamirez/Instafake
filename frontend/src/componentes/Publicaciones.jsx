@@ -1,9 +1,13 @@
-import React from 'react'
+import { Publicacion } from "./Publicacion";
+import './styles/Publicaciones.css';
 
 export const Publicaciones = () => {
   return (
-    <div>
-      
+    <div className="publicaciones">
+      <Publicacion />
+      <Publicacion />
+      <Publicacion />
+      <Publicacion />
     </div>
   )
 }

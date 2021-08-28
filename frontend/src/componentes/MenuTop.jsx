@@ -1,7 +1,7 @@
 import { FcLike } from 'react-icons/fc';
 import { RiMessengerLine } from 'react-icons/ri';
 import { CgAddR } from 'react-icons/cg';
-import logo from '../imgs/logo.png';
+// import logo from '../imgs/logo.png';
 import './styles/MenuTop.css';
 
 export const MenuTop = () => {
