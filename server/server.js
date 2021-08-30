@@ -3,6 +3,7 @@ const app = express();
 const cors = require('cors');
 const conection = require('./dbConnection/connection');
 const usuarios = require('./rutas/UsuarioRoutes');
+const publicaciones = require('./rutas/PublicacionRoutes');
 const port = 5000;
 
 app.use(cors({ origin: "*", }));
@@ -12,6 +13,7 @@ conection()
   .catch(e => console.log(e));
 
 app.use(usuarios);
+app.use(publicaciones);
 
 app.get('/', (req, res) => {
   res.send('hola');
